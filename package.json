@@ -1,0 +1,34 @@
+{
+  "name": "react-webpack-babel",
+  "version": "1.0.0",
+  "description": "Starter Kit for a React setup",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --profile --colors",
+    "start": "webpack-dev-server --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianaspeterson/react-webpack-babel.git"
+  },
+  "keywords": [
+    "react",
+    "starter",
+    "kit"
+  ],
+  "author": "Briana Peterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianaspeterson/react-webpack-babel/issues"
+  },
+  "homepage": "https://github.com/brianaspeterson/react-webpack-babel#readme",
+  "dependencies": {
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "react-hot-loader": "^1.3.0"
+  }
+}
